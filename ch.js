@@ -1,7 +1,7 @@
 const axios = require("axios");
 require('dotenv').config();
-const express = require('express') ;
-const app = express();
+// const express = require('express') ;
+// const app = express();
 var port = process.env.PORT || 3000;
 // Example IDs
 // const userGardensIDs = ["1", "2"];
@@ -143,11 +143,12 @@ async function startCycle() {
     gardnersData();
     gardnersData();
 }
-app.listen(port,() => {
-    console.log('listening on port ',port)});
+// app.listen(port,() => {
+//     console.log('listening on port ',port)});
 
 // Start automation
 console.log("▶ Starting farm automation...");
 startCycle();
+
 
 
