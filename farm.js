@@ -150,7 +150,7 @@ async function startFarm() {
   console.log("🌾 Starting Chainers farm automation...");
 
   // Start dashboard
-  setInterval(showDashboard, 5000);
+  setInterval(showDashboard, 15000);
 
   // Start parallel bed cycles
   for (const seedInfo of plantSeed) {
@@ -159,3 +159,4 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
