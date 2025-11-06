@@ -44,7 +44,7 @@ const plantSeed = [
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68dd8aa03bdf0c6e7893f8f9","seedIDs": "673e0c942c7bfd708b35245f","growthTimeMin": 4,"growthTime": 240000},
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68dd8aa03bdf0c6e7893f8f5","seedIDs": "673e0c942c7bfd708b35245f","growthTimeMin": 4,"growthTime": 240000},
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68dd8aa03bdf0c6e7893f8f1","seedIDs": "67dc227a59b878f195998e7e","growthTimeMin": 8,"growthTime": 480000},
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68c2ed1e5c457c186fbcf096","seedIDs": "67dc227a59b878f195998e42","growthTimeMin": 78,"growthTime": 4680000}
+  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68c2ed1e5c457c186fbcf096","seedIDs": "67dc227a59b878f195998d94","growthTimeMin": 13,"growthTime": 780000}
 ]
 
 
@@ -178,6 +178,7 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
 
 
