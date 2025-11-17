@@ -32,7 +32,7 @@ const api = axios.create({
 //   ];
 
 const plantSeed = [
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690b47dd284c0906f5ae679d","seedIDs": "673e0c942c7bfd708b35244d","growthTimeMin": 2,"growthTime": 120000},
+  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690b47dd284c0906f5ae679d","seedIDs": "673e0c942c7bfd708b35247d","growthTimeMin": 2,"growthTime": 1200000},
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690733c4b2acdd963c39c167","seedIDs": "6900ddfce2a48c502f309993","growthTimeMin": 1440,"growthTime": 80100000},
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68f3a2583d1b80e2a90e2c15","seedIDs": "67dc227a59b878f195998dca","growthTimeMin": 15,"growthTime": 900000},
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68c7b8915c457c186fd40041","seedIDs": "665f2698534176fcd32f9a7d","growthTimeMin": 30,"growthTime": 1800000},
@@ -178,6 +178,7 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
 
 
