@@ -178,20 +178,3 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
