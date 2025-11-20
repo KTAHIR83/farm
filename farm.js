@@ -14,22 +14,7 @@ const api = axios.create({
 });
 
 // 🌱 Seed array with growth times
-// const plantSeed = [
-    
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68f3a2583d1b80e2a90e2c15", seedIDs: "67dc227a59b878f195998dca", growthTime: 900000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68c2ed1e5c457c186fbcf096", seedIDs: "67dc227a59b878f195998e06", growthTime: 1810000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68c7b8915c457c186fd40041", seedIDs: "665f2698534176fcd32f9a7d", growthTime: 1800000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68dd8aa03bdf0c6e7893f901", seedIDs: "67dc227a59b878f195998d8e", growthTime: 780000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68dd8aa03bdf0c6e7893f8ed", seedIDs: "665f2698534176fcd32f9a7d", growthTime: 1800000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68dd8aa03bdf0c6e7893f8f5", seedIDs: "67dc227a59b878f195998e7e", growthTime: 480000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68dd8aa03bdf0c6e7893f8fd", seedIDs: "673e0c942c7bfd708b35245f", growthTime: 240000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68dd8aa03bdf0c6e7893f8f1", seedIDs: "673e0c942c7bfd708b352405", growthTime: 360000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68dd8aa03bdf0c6e7893f8f9", seedIDs: "673e0c942c7bfd708b35245f", growthTime: 240000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68df7531bd36593b8b5ec737", seedIDs: "673e0c942c7bfd708b352447", growthTime: 120000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68e0ba678e6f03b23d39fc6a", seedIDs: "673e0c942c7bfd708b352465", growthTime: 240000 },
-//     { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "68ec992d3464f6e70728af15", seedIDs: "67dc227a59b878f195998d8e", growthTime: 780000 },
-//   { userGardensIDs: "68c2eb6a7e204da0fe55f668", userBedsIDs: "690a161483bb86c63e794651", seedIDs: "67dc227a59b878f195998db2", growthTime: 1920000 }
-//   ];
+
 
 const plantSeed = [
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690b47dd284c0906f5ae679d","seedIDs": "673e0c942c7bfd708b35247d","growthTimeMin": 2,"growthTime": 1200000},
@@ -178,3 +163,4 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
