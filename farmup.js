@@ -24,7 +24,7 @@ const api = axios.create({
 const plantSeed = [
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68c7b8915c457c186fd40041","seedIDs": "665f2698534176fcd32f9a7d","growthTime": 1800000},
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68dd8aa03bdf0c6e7893f8ed","seedIDs": "665f2698534176fcd32f9a7d","growthTime": 1800000},  
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692ea0a0337dbc729f96b95b","seedIDs": "67dc227a59b878f195998db8","growthTime":1920000}, 
+  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692ea0a0337dbc729f96b95b","seedIDs": "673e0c942c7bfd708b352405","growthTime":1920000}, 
 
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68e0ba678e6f03b23d39fc6a","seedIDs": "673e0c942c7bfd708b35244d","growthTime": 120000},
 
@@ -175,4 +175,5 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
