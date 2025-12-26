@@ -28,7 +28,7 @@ const plantSeed = [
 
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68e0ba678e6f03b23d39fc6a","seedIDs": "673e0c942c7bfd708b35244d","growthTime": 120000},
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690b47dd284c0906f5ae679d","seedIDs": "67dc227a59b878f195998dca","growthTime": 900000},
+  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690b47dd284c0906f5ae679d","seedIDs": "67dc227a59b878f195998dd6","growthTime": 900000},
 
   {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692c56ded5279610094c3213","seedIDs": "673e0c942c7bfd708b352405","growthTime": 180000},
 
@@ -179,6 +179,7 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
 
 
