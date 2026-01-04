@@ -22,27 +22,21 @@ const api = axios.create({
 
 
 const plantSeed = [
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68c7b8915c457c186fd40041","seedIDs": "665f2698534176fcd32f9a7d","growthTime": 1800000},
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68dd8aa03bdf0c6e7893f8ed","seedIDs": "665f2698534176fcd32f9a7d","growthTime": 1800000},  
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692ea0a0337dbc729f96b95b","seedIDs": "68824771915623f3dcc1fb09","growthTime":21600000}, 
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "6901e43bb2acdd963cc2ef39","seedIDs": "673e0c942c7bfd708b352453","growthTime": 120000},
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "6915f6f77cb94076342bd593","seedIDs": "673e0c942c7bfd708b352471","growthTime": 480000},  
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "693d342bdff2bc7ba934dbae","seedIDs": "68824771915623f3dcc1fb09","growthTime":21600000}, 
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "68e0ba678e6f03b23d39fc6a","seedIDs": "673e0c942c7bfd708b35244d","growthTime": 120000},
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "694ce641cc638d10d0cfff26","seedIDs": "67dc227a59b878f195998e6c","growthTime": 26880000},
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "690b47dd284c0906f5ae679d","seedIDs": "67dc227a59b878f195998dd6","growthTime": 900000},
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "692dec45337dbc729f38df46","seedIDs": "673e0c942c7bfd708b352489","growthTime": 6720000},
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692c56ded5279610094c3213","seedIDs": "673e0c942c7bfd708b352405","growthTime": 180000},
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "692effaed527961009852539","seedIDs": "67dc227a59b878f195998d7c","growthTime": 19680000},
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692c56f964e8f74db4acd14f","seedIDs": "673e0c942c7bfd708b352423","growthTime": 1020000},
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "6950dc23868cd847c6565feb","seedIDs": "6900ddfce2a48c502f30999f","growthTime": 57600000},
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692c571fd5279610094c548f","seedIDs": "67dc227a59b878f195998dac","growthTime": 900000},
+  {"userGardensIDs": "68c44690637b77c0d1b5b4a2","userBedsIDs": "6931dea3dff2bc7ba99a41e7","seedIDs": "67dc227a59b878f195998e4e","growthTime": 4680000},
 
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "692c575064e8f74db4ad0094","seedIDs": "67dc227a59b878f195998d94","growthTime": 780000},
-
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "6931a79dd52796100995325a","seedIDs": "67dc227a59b878f195998e7e","growthTime": 480000},
-
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "694b90631541358fb2678528","seedIDs": "67dc227a59b878f195998d7c","growthTime": 19680000},
-
-  {"userGardensIDs": "68c2eb6a7e204da0fe55f668","userBedsIDs": "6582e209591717d062d19e43","seedIDs": "673e0c942c7bfd708b35247d","growthTime": 6720000},
+ 
 ];
 
 
@@ -179,6 +173,7 @@ async function startFarm() {
 }
 
 startFarm().catch(err => console.error("💥 Fatal error:", err.message));
+
 
 
 
